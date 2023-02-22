@@ -319,10 +319,9 @@ Shopware.Module.register('swag-example', {
     },
 
     navigation: [{
+        parent: 'sw-marketing',
         label: 'swag-example.general.mainMenuItemGeneral',
-        color: '#ff3d58',
         path: 'swag.example.list',
-        icon: 'default-shopping-paper-bag-product',
         position: 100
     }]
 });
